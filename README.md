@@ -17,6 +17,9 @@ Here is the list of required softwares to run all codes:
 * `/Python/`: contains Python Jupyter notebooks
 * `/training/8000_perf_noisy_ex/`: contains test and neural-network-predicted array files, obtained from 2000 training datasets for each data type.
 
+## Related article
+* TBA
+
 ## Instructions to generate trained ICCNet and FidNet model files and plot results
 ### Preparation
 1. Download the whole package by clicking [Download ZIP](https://github.com/ACAD-repo/ICCNet-FidNet/archive/main.zip) and extract it to any directory. (\*Do not alter the subdirectories.\*)
@@ -50,6 +53,8 @@ and 8 for FidNet
 `/training/8000_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_*.mat`
 
 `/training/8000_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_pred_*.mat`
+
+![Training and validation](https://drive.google.com/file/d/1Dz8j-UisNWYgZGZ0QWenDTqHWnEWhuHT/view?usp=sharing)
 
 ## License
 GNU General Public License v3.0
