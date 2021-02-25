@@ -26,7 +26,7 @@ Here is the list of required softwares to run all codes:
 ### MATLAB runs
 #### Generate training examples
 4. Run `train_ex_gen.m` with MATLAB and generate raw training examples in the directory `/raw_training_examples/train_ex_*/D16/raw_data/` for all four data types `*`: `Haar`, `Haar_N_1000`, `ACT` and `ACT_N_1000`.
-5. Run the MATLAB code files `raw2X_right.m` and `raw2X_wrong.m`. These generate packaged input matrices `X_right_*.mat`/`X_wrong_*.mat` and output matrices `y_right_*.mat`/`y_wrong_*.mat` for the "right" target states and "wrong" target states, which are located in the directory `/training/*_perf_noisy_ex/`.
+5. Run the MATLAB code files `raw2X_right.m` and `raw2X_wrong.m`. These generate packaged input matrices `X_right_*.mat`/`X_wrong_*.mat` and output matrices `y_cont_right_*.mat`/`y_cont_wrong_*.mat` for the "right" target states and "wrong" target states, which are located in the directory `/training/*_perf_noisy_ex/`.
 6. Run the MATLAB code file `right_wrong_combine.m` to combine the input and output array files from both the "right" and "wrong" target states. These combined files will be used to train ICCNet and FidNet with Python, and are stored in `/training/*_perf_noisy_ex/`.
 #### Generate test examples
 7. Run `test_ex_gen.m` with MATLAB and generate raw testing examples in the directory `/raw_testing_examples/D16/raw_data/` for all four data types and state ranks between 1 and 3.
