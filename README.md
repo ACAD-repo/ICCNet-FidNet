@@ -35,7 +35,7 @@ Here is the list of required softwares to run all codes:
 ### Python runs
 9. Run `ICCNet_trainer.ipynb` to train ICCNet. All trained model files will be stored in `/training/*_perf_noisy_ex/ICCNet_trained_files/`.
 10. Run `FidNet_trainer.ipynb` to train FidNet. All trained model files will be stored in `/training/*_perf_noisy_ex/FidNet_trained_files/`.
-11. Execute `Net_evaluator.ipynb` to carry out predictions with the test datasets found in `/raw_test_examples/` and plot the results.
+11. Execute `Net_evaluator.ipynb` to carry out predictions with the trained model files on test datasets found in `/raw_test_examples/` and plots the results.
 
 ## Sample results
 Due to space constraints, only the final ICCNet and FidNet prediction results are included in this package. These comprise 16 files:
