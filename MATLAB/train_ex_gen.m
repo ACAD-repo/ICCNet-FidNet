@@ -12,14 +12,14 @@ numqubits=4; % number of qubits
 dim = round(2.^numqubits); % Hilbert-space dimension
 lim_rnk=3; % maximum rank of training quantum states
 
-num_ex=5000; % number of training examples per data type
+num_ex=2000; % number of training examples per data type
 
 copies=1000; % number of copies assigned for statistically noisy simulations
 
 root_dir='../raw_training_examples/';
 
 for rand_or_ACT=2:2 %1 for rand and 2 for ACT
-	for perf_or_noisy=1:2 %1 for perfect and 2 for statistically noisy examples
+	for perf_or_noisy=2:2 %1 for perfect and 2 for statistically noisy examples
 
 		if perf_or_noisy==1
 			if rand_or_ACT==2
@@ -41,7 +41,7 @@ for rand_or_ACT=2:2 %1 for rand and 2 for ACT
 
 		K=10;
 
-		for ex=1:num_ex
+		for ex=1001:num_ex
 			
 			fprintf('Generating training example %i...',ex)
 			

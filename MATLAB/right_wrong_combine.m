@@ -1,5 +1,5 @@
 % Sets the processed training-data directory
-work_dir = '../training/20000_perf_noisy_ex/';
+work_dir = '../training/8000_perf_noisy_ex/';
 
 for j=1:10    
     

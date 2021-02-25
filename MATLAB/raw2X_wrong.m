@@ -6,10 +6,10 @@ clear all;clc
 % for use with Python scripts.
 
 batch=cell(4,1);
-batch{1}=1:5000; % Noisy random Haar (N=1000)
-batch{2}=1:5000; % Noiseless random Haar (N=Inf)
-batch{3}=1:5000; % Noisy ACT (N=1000)
-batch{4}=1:5000; % Noiseless ACT (N=Inf)
+batch{1}=1:2000; % Noisy random Haar (N=1000)
+batch{2}=1:2000; % Noiseless random Haar (N=Inf)
+batch{3}=1:2000; % Noisy ACT (N=1000)
+batch{4}=1:2000; % Noiseless ACT (N=Inf)
 batch_vec=1:4; % Chooses which batch to include for training.
 
 M=0;
