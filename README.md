@@ -28,13 +28,13 @@ Here is the list of required softwares to run all codes:
 4. Run `train_ex_gen.m` with MATLAB and generate raw training examples in the directory `/raw_training_examples/train_ex_*/D16/raw_data/` for all four data types `*`: `Haar`, `Haar_N_1000`, `ACT` and `ACT_N_1000`.
 5. Run `raw2X_train.m` to generate packaged input `X_*.mat` and output matrices `y_*.mat`, which are located in the directory `/training/*_perf_noisy_ex/`. These files will be used to train ICCNet and FidNet on Python.
 #### Generate test examples
-7. Run `test_ex_gen.m` with MATLAB and generate raw testing examples in the directory `/raw_test_examples/D16/raw_data/` for all four data types and state ranks between 1 and 3.
-8. Run `raw2X_test.m` to generate the corresponding processed input and output files.
+6. Run `test_ex_gen.m` with MATLAB and generate raw testing examples in the directory `/raw_test_examples/D16/raw_data/` for all four data types and state ranks between 1 and 3.
+7. Run `raw2X_test.m` to generate the corresponding processed input and output files.
 
 ### Python runs
-9. Run `ICCNet_trainer.ipynb` to train ICCNet. All trained model files will be stored in `/training/*_perf_noisy_ex/ICCNet_trained_files/`.
-10. Run `FidNet_trainer.ipynb` to train FidNet. All trained model files will be stored in `/training/*_perf_noisy_ex/FidNet_trained_files/`.
-11. Execute `Net_evaluator.ipynb` to carry out predictions with the trained model files on test datasets found in `/raw_test_examples/` and plots the results.
+8. Run `ICCNet_trainer.ipynb` to train ICCNet. All trained model files will be stored in `/training/*_perf_noisy_ex/ICCNet_trained_files/`.
+9. Run `FidNet_trainer.ipynb` to train FidNet. All trained model files will be stored in `/training/*_perf_noisy_ex/FidNet_trained_files/`.
+10. Execute `Net_evaluator.ipynb` to carry out predictions with the trained model files on test datasets found in `/raw_test_examples/` and plots the results.
 
 ## Sample results
 Due to space constraints, only the final ICCNet and FidNet prediction results are included in this package. These comprise 16 files:
