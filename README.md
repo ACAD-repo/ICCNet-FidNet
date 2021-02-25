@@ -1,7 +1,7 @@
 # ICCNet-FidNet
 Codes for carrying out simulation datasets for training and evaluating ICCNet and FidNet and trained final models for predictions.
 
-## Minimum system requirements
+## System requirements
 Here is the list of required softwares to run all codes:
 * MATLAB
 * CVX package available at http://cvxr.com/cvx/download/
