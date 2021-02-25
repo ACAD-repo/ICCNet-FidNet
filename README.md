@@ -15,7 +15,7 @@ Here is the list of required softwares to run all codes:
 ## Package content
 * `/MATLAB/`: contains MATLAB code files and functions
 * `/Python/`: contains Python Jupyter notebooks
-* `/training/8000_perf_noisy_ex/`: contains test and neural-network-predicted array files, obtained from 2000 training datasets for each data type.
+* `/training/8000_perf_noisy_ex/`: contains test and neural-network-predicted array files, obtained from 2000 training datasets for each data type as sample examples.
 
 ## Related article
 * TBA
@@ -40,7 +40,7 @@ Here is the list of required softwares to run all codes:
 10. Execute `Net_evaluator.ipynb` to carry out predictions with the trained model files on test datasets found in `/raw_test_examples/` and plots the results.
 
 ## Sample results
-Due to space constraints, only the final ICCNet and FidNet prediction results are included in this package as MATLAB MAT files. These files are generated from pre-trained neural-network models created with 2000 training datasets per data type. They comprise 16 files:
+Due to space constraints, only the final ICCNet and FidNet prediction results are included in this package as MATLAB MAT files. These files are generated from pre-trained neural-network models created with 2000 training datasets per data type, which are fewer than those used in the related article. They comprise 16 files:
 
 8 files for ICCNet 
 
