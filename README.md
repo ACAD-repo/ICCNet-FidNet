@@ -58,7 +58,7 @@ As a preview, some important graphs are shown regarding the training and evaluat
 
 __Training and validation of ICCNet and FidNet__
 
-![Train val](/training/Fig_ICCNet_FidNet_train_val.png = 100x50)
+![Train val](training/Fig_ICCNet_FidNet_train_val.png =100x50)
 
 __Performances for random Haar measurement bases__
 
