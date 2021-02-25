@@ -25,17 +25,17 @@ Here is the list of required softwares to run all codes:
 
 ### MATLAB runs
 #### Generate training examples
-5. Run `train_ex_gen.m` with MATLAB and generate raw training examples in the directory `/raw_training_examples/train_ex_*/D16/raw_data/` for all four data types `*`: `Haar`, `Haar_N_1000`, `ACT` and `ACT_N_1000`.
-6. Run the MATLAB code files `raw2X_right.m` and `raw2X_wrong.m`. These generate packaged input matrices `X_right_*.mat`/`X_wrong_*.mat` and output matrices `y_right_*.mat`/`y_wrong_*.mat` for the "right" target states and "wrong" target states, which are located in the directory `/training/*_perf_noisy_ex/`.
-7. Run the MATLAB code file `right_wrong_combine.m` to combine the input and output array files from both the "right" and "wrong" target states. These combined files will be used to train ICCNet and FidNet with Python, and are stored in `/training/*_perf_noisy_ex/`.
+4. Run `train_ex_gen.m` with MATLAB and generate raw training examples in the directory `/raw_training_examples/train_ex_*/D16/raw_data/` for all four data types `*`: `Haar`, `Haar_N_1000`, `ACT` and `ACT_N_1000`.
+5. Run the MATLAB code files `raw2X_right.m` and `raw2X_wrong.m`. These generate packaged input matrices `X_right_*.mat`/`X_wrong_*.mat` and output matrices `y_right_*.mat`/`y_wrong_*.mat` for the "right" target states and "wrong" target states, which are located in the directory `/training/*_perf_noisy_ex/`.
+6. Run the MATLAB code file `right_wrong_combine.m` to combine the input and output array files from both the "right" and "wrong" target states. These combined files will be used to train ICCNet and FidNet with Python, and are stored in `/training/*_perf_noisy_ex/`.
 #### Generate test examples
-8. Run `test_ex_gen.m` with MATLAB and generate raw testing examples in the directory `/raw_testing_examples/D16/raw_data/` for all four data types and state ranks between 1 and 3.
-9. Run `raw2X_test.m` to generate the corresponding processed input and output files.
+7. Run `test_ex_gen.m` with MATLAB and generate raw testing examples in the directory `/raw_testing_examples/D16/raw_data/` for all four data types and state ranks between 1 and 3.
+8. Run `raw2X_test.m` to generate the corresponding processed input and output files.
 
 ### Python runs
-8. Run `ICCNet_trainer.ipynb` to train ICCNet. All trained model files will be stored in `/training/*_perf_noisy_ex/ICCNet_trained_files/`.
-9. Run `FidNet_trainer.ipynb` to train FidNet. All trained model files will be stored in `/training/*_perf_noisy_ex/FidNet_trained_files/`.
-10. Execute `Net_evaluator.ipynb` to carry out predictions with the test datasets found in `/raw_test_examples/` and plot the results.
+9. Run `ICCNet_trainer.ipynb` to train ICCNet. All trained model files will be stored in `/training/*_perf_noisy_ex/ICCNet_trained_files/`.
+10. Run `FidNet_trainer.ipynb` to train FidNet. All trained model files will be stored in `/training/*_perf_noisy_ex/FidNet_trained_files/`.
+11. Execute `Net_evaluator.ipynb` to carry out predictions with the test datasets found in `/raw_test_examples/` and plot the results.
 
 ## Sample results
 Due to space constraints, only the final ICCNet and FidNet prediction results are included in this package. These comprise 16 files:
