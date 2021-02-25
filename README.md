@@ -54,13 +54,18 @@ and 8 for FidNet
 
 `/training/8000_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_pred_*.mat`
 
+As a preview, some important graphs are shown regarding the training and evaluation of ICCNet and FidNet:
+
 __Training and validation of ICCNet and FidNet__
+
 ![Training and validation](https://drive.google.com/uc?export=view&id=1UDBTWaQhHOkQRUK7306PhOE6hYHG3Z4N)
 
 __Performances for random Haar measurement bases__
+
 ![Haar performance](https://drive.google.com/uc?export=view&id=1pQdWDIyA8XHaDJgGCSgVmOrPXXyLfEGr)
 
 __Performance for adaptive-compressive-tomography (ACT) measurement bases__
+
 ![ACT performance](https://drive.google.com/uc?export=view&id=1UnVlieF0-Leka_BB3ZbsOidkPvsMMEdC)
 
 ## License
