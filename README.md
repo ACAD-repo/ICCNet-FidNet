@@ -12,6 +12,11 @@ Here is the list of required softwares to run all codes:
 * Keras version 2.1.6
 * All other python packages stated in the Python Jupyter notebooks.
 
+## Package content
+* `/MATLAB/`: contains MATLAB code files and functions
+* `/Python/`: contains Python Jupyter notebooks
+* `/training/8000_perf_noisy_ex/`: contains test and neural-network-predicted array files
+
 ## Instructions to generate trained ICCNet and FidNet model files and plot results
 ### Preparation
 1. Download the whole package by clicking [Download ZIP](https://github.com/ACAD-repo/ICCNet-FidNet/archive/main.zip) and extract it to any directory. (\*Do not alter the subdirectories.\*)
@@ -19,7 +24,7 @@ Here is the list of required softwares to run all codes:
 3. Ensure that the MATLAB CVX package is properly installed and set to PATH. We need this to run semidefinite programs.
 
 ### MATLAB runs
-5. Run `train_ex_gen.m` with MATLAB and generate raw training examples in the folder `/raw_training_examples/` for all four data types: `train_ex_Haar`, `train_ex_Haar_N_1000`, `train_ex_ACT` and `train_ex_ACT_N_1000`.
+5. Run `train_ex_gen.m` with MATLAB and generate raw training examples in the directory `/raw_training_examples/` for all four data types: `train_ex_Haar`, `train_ex_Haar_N_1000`, `train_ex_ACT` and `train_ex_ACT_N_1000`.
 6. Run the MATLAB code files `raw2X_right.m` and `raw2X_wrong.m`. These generate packaged input matrices `X_*.mat` and output matrices `y_*.mat` for the "right" target states and "wrong" target states, as indicated by the wildcard.
 7. Run the MATLAB code file `right_wrong_combine.m` to combine the input and output array files from both the "right" and "wrong" target states. Since these files encode all information (including the <img src="https://render.githubusercontent.com/render/math?math=s_\textsc{cvx}"> and <img src="https://render.githubusercontent.com/render/math?math=\mathcal{F}"> values), they can be used to train ICCNet and FidNet with Python.
 
