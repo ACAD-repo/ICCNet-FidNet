@@ -40,7 +40,7 @@ Here is the list of required softwares to run all codes:
 10. Execute `Net_evaluator.ipynb` to carry out predictions with the trained model files on test datasets found in `/raw_test_examples/` and plots the results.
 
 ## Sample results
-Due to space constraints, only the final ICCNet and FidNet prediction results are included in this package. These comprise 16 files:
+Due to space constraints, only the final ICCNet and FidNet prediction results are included in this package as MATLAB MAT files. These files are generated from pre-trained neural-network models created with 2000 training datasets per data type. They comprise 16 files:
 
 8 files for ICCNet 
 
@@ -54,9 +54,14 @@ and 8 for FidNet
 
 `/training/8000_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_pred_*.mat`
 
-![Training and validation](https://drive.google.com/uc?export=view&id=1Dz8j-UisNWYgZGZ0QWenDTqHWnEWhuHT)
+__Training and validation of ICCNet and FidNet__
+![Training and validation](https://drive.google.com/uc?export=view&id=1UDBTWaQhHOkQRUK7306PhOE6hYHG3Z4N)
 
-![Haar performance](https://drive.google.com/uc?export=view&id=1otrohfSt0UaYMnFV0hauewUZ-TSI-mBP)
+__Performances for random Haar measurement bases__
+![Haar performance](https://drive.google.com/uc?export=view&id=1pQdWDIyA8XHaDJgGCSgVmOrPXXyLfEGr)
+
+__Performance for adaptive-compressive-tomography (ACT) measurement bases__
+![ACT performance](https://drive.google.com/uc?export=view&id=1UnVlieF0-Leka_BB3ZbsOidkPvsMMEdC)
 
 ## License
 GNU General Public License v3.0
