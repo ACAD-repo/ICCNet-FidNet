@@ -43,8 +43,6 @@ for rnk_st=1:3
                     ycell{k}=zeros(m,2);
                 end
                 pom=zeros(D,D,k.*D);
-                rho=raw_data{Kmax,2};
-                rnk=rank(rho,1e-3);
                 Uvec=[];
                 ct=0;
                 for k2=1:k
