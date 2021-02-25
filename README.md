@@ -58,7 +58,7 @@ As a preview, some important graphs are shown regarding the training and evaluat
 
 __Training and validation of ICCNet and FidNet__
 
-<iframe src="https://drive.google.com/file/d/1UDBTWaQhHOkQRUK7306PhOE6hYHG3Z4N/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/uc?export=view&id=1UDBTWaQhHOkQRUK7306PhOE6hYHG3Z4N" width="640" height="480"></iframe>
 
 __Performances for random Haar measurement bases__
 
