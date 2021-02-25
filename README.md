@@ -54,7 +54,7 @@ and 8 for FidNet
 
 `/training/8000_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_pred_*.mat`
 
-![Training and validation](https://drive.google.com/file/d/1Dz8j-UisNWYgZGZ0QWenDTqHWnEWhuHT/view?usp=sharing)
+![Training and validation](https://drive.google.com/uc?export=view&id=1Dz8j-UisNWYgZGZ0QWenDTqHWnEWhuHT)
 
 ## License
 GNU General Public License v3.0
