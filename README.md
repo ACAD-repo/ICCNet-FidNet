@@ -12,7 +12,7 @@ Here is the list of required softwares to run all codes:
 * Keras version 2.1.6
 * All other python packages stated in the Python Jupyter notebooks.
 
-## Instructions to generate trained ICCNet and FidNet model files
+## Instructions to generate trained ICCNet and FidNet model files and plot results
 ### Preparation
 1. Download the whole package by clicking [Download ZIP](https://github.com/ACAD-repo/ICCNet-FidNet/archive/main.zip) and extract it to any directory. (\*Do not alter the subdirectories.\*)
 2. Extract all files downloaded from https://github.com/qMLE/qMLE into the `MATLAB` subdirectory. They execute maximum-likelihood procedures very quickly using projected-gradient methods.
@@ -26,3 +26,4 @@ Here is the list of required softwares to run all codes:
 ### Python runs
 8. Run `ICCNet_trainer.ipynb` to train ICCNet. All trained model files will be stored in `/training/*_perf_noisy_ex/ICCNet_trained_files/`.
 9. Run `FidNet_trainer.ipynb` to train FidNet. All trained model files will be stored in `/training/*_perf_noisy_ex/FidNet_trained_files/`.
+10. Execute `Net_evaluator.ipynb` to carry out predictions with the test datasets found in `/raw_test_examples/` and plot the results.
