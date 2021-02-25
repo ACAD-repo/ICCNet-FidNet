@@ -56,6 +56,8 @@ and 8 for FidNet
 
 ![Training and validation](https://drive.google.com/uc?export=view&id=1Dz8j-UisNWYgZGZ0QWenDTqHWnEWhuHT)
 
+![Haar performance](https://drive.google.com/uc?export=view&id=1otrohfSt0UaYMnFV0hauewUZ-TSI-mBP)
+
 ## License
 GNU General Public License v3.0
 
