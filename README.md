@@ -7,8 +7,10 @@ Here is the list of required softwares to run all codes:
 * CVX package available at http://cvxr.com/cvx/download/
 * MATLAB files for maximum-likelihood estimation found at https://github.com/qMLE/qMLE
 * Python version 3.5.3
+* Jupyter
 * Tensorflow version 1.9
 * Keras version 2.1.6
+* All other python packages stated in the Python Jupyter notebooks.
 
 ## Instructions to generate trained ICCNet and FidNet model files
 ### Preparation
@@ -17,6 +19,10 @@ Here is the list of required softwares to run all codes:
 3. Ensure that the MATLAB CVX package is properly installed and set to PATH. We need this to run semidefinite programs.
 
 ### MATLAB runs
-4. Run `train_ex_gen.m` with MATLAB and generate raw training examples in the folder `/raw_training_examples/` for all four data types: `train_ex_Haar`, `train_ex_Haar_N_1000`, `train_ex_ACT` and `train_ex_ACT_N_1000`.
-5. Run the MATLAB code files `raw2X_right.m` and `raw2X_wrong.m`. These generate packaged input matrices `X_*.mat` and output matrices `y_*.mat` for the "right" target states and "wrong" target states, as indicated by the wildcard.
-6. Run the MATLAB code file `right_wrong_combine.m` to combine the input and output array files from both the "right" and "wrong" target states. Since these files encode all information (including the <img src="https://render.githubusercontent.com/render/math?math=s_\textsc{cvx}"> and <img src="https://render.githubusercontent.com/render/math?math=\mathcal{F}"> values), they can be used to train ICCNet and FidNet with Python.
+5. Run `train_ex_gen.m` with MATLAB and generate raw training examples in the folder `/raw_training_examples/` for all four data types: `train_ex_Haar`, `train_ex_Haar_N_1000`, `train_ex_ACT` and `train_ex_ACT_N_1000`.
+6. Run the MATLAB code files `raw2X_right.m` and `raw2X_wrong.m`. These generate packaged input matrices `X_*.mat` and output matrices `y_*.mat` for the "right" target states and "wrong" target states, as indicated by the wildcard.
+7. Run the MATLAB code file `right_wrong_combine.m` to combine the input and output array files from both the "right" and "wrong" target states. Since these files encode all information (including the <img src="https://render.githubusercontent.com/render/math?math=s_\textsc{cvx}"> and <img src="https://render.githubusercontent.com/render/math?math=\mathcal{F}"> values), they can be used to train ICCNet and FidNet with Python.
+
+### Python runs
+8. Run `ICCNet_trainer.ipynb` to train ICCNet. All trained model files will be stored in `/training/*_perf_noisy_ex/ICCNet_trained_files/`.
+9. Run `FidNet_trainer.ipynb` to train FidNet. All trained model files will be stored in `/training/*_perf_noisy_ex/FidNet_trained_files/`.
