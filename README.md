@@ -52,7 +52,9 @@ and 8 for FidNet
 
 `*_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_pred_*.mat`
 
-### License
+## License
+GNU General Public License v3.0
+
 Copyright (c) 2021 Yong Siah Teo, Seongwook Shin, Hyunseok Jeong, Yosep Kim, Yoon-Ho Kim, Gleb I. Struchalin, Egor V. Kovlakov, Stanislav S. Straupe, Sergei P. Kulik, Gerd Leuchs, and Luis L. Sánchez-Soto
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
