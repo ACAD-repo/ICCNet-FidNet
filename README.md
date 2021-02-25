@@ -44,13 +44,13 @@ Due to space constraints, only the final ICCNet and FidNet prediction results ar
 
 `/training/*_perf_noisy_ex/ICCNet_trained_files/model_ICCNet_scvx_*.mat`
 
-`*_perf_noisy_ex/ICCNet_trained_files/model_ICCNet_scvx_pred_*.mat`
+`/training/*_perf_noisy_ex/ICCNet_trained_files/model_ICCNet_scvx_pred_*.mat`
 
 and 8 for FidNet 
 
 `/training/*_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_*.mat`
 
-`*_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_pred_*.mat`
+`/training/*_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_pred_*.mat`
 
 ## License
 GNU General Public License v3.0
