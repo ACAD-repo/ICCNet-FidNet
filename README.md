@@ -54,7 +54,7 @@ and 8 for FidNet
 
 `/training/8000_perf_noisy_ex/FidNet_trained_files/model_FidNet_fid_pred_*.mat`
 
-As a preview, some important graphs are shown regarding the training and evaluation of ICCNet and FidNet:
+As a preview, some important results are shown regarding the training and evaluation of ICCNet and FidNet based on the aforementioned included files:
 
 __Training and validation of ICCNet and FidNet__
 
