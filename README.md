@@ -58,7 +58,7 @@ While better results can be obtained with more training datasets, as a preview, 
 
 __Training and validation of ICCNet and FidNet__
 
-<img src="https://drive.google.com/uc?export=view&id=1UDBTWaQhHOkQRUK7306PhOE6hYHG3Z4N" alt="Click to enlarge picture" width="200" height="auto">
+<img src="https://drive.google.com/uc?export=view&id=1UDBTWaQhHOkQRUK7306PhOE6hYHG3Z4N" alt="Click to enlarge picture" width="480" height="auto">
 
 __Performances for random Haar measurement bases__
 
