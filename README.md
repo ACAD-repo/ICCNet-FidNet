@@ -62,11 +62,11 @@ __Training and validation of ICCNet and FidNet__
 
 __Performances for random Haar measurement bases__
 
-<img src="https://drive.google.com/uc?export=view&id=1pQdWDIyA8XHaDJgGCSgVmOrPXXyLfEGr" alt="Click to enlarge picture" width="860" height="auto">
+<img src="https://drive.google.com/uc?export=view&id=1pQdWDIyA8XHaDJgGCSgVmOrPXXyLfEGr" alt="Click to enlarge picture" width="768" height="auto">
 
 __Performance for adaptive-compressive-tomography (ACT) measurement bases__
 
-<img src="https://drive.google.com/uc?export=view&id=1UnVlieF0-Leka_BB3ZbsOidkPvsMMEdC" alt="Click to enlarge picture" width="860" height="auto">
+<img src="https://drive.google.com/uc?export=view&id=1UnVlieF0-Leka_BB3ZbsOidkPvsMMEdC" alt="Click to enlarge picture" width="768" height="auto">
 
 ## License
 GNU General Public License v3.0
