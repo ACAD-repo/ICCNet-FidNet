@@ -10,7 +10,8 @@ Here is the list of required softwares to run all codes:
 * Jupyter
 * Tensorflow version 1.9
 * Keras version 2.1.6
-* All other python packages stated in the Python Jupyter notebooks.
+* All other python packages stated in the Python Jupyter notebooks
+* Recommended minimum disk space of 4GB
 
 ## Package content
 * `/MATLAB/`: contains MATLAB code files and functions
