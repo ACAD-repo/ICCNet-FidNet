@@ -72,7 +72,7 @@ __Performance for adaptive-compressive-tomography (ACT) measurement bases__
 ## License
 GNU General Public License v3.0
 
-Copyright (C) 2021 __Yong Siah Teo__, Seongwook Shin, Hyunseok Jeong, Yosep Kim, Yoon-Ho Kim, Gleb I. Struchalin, Egor V. Kovlakov, Stanislav S. Straupe, Sergei P. Kulik, Gerd Leuchs, and Luis L. Sánchez-Soto4
+Copyright (C) 2021 __Yong Siah Teo__, Seongwook Shin, Hyunseok Jeong, Yosep Kim, Yoon-Ho Kim, Gleb I. Struchalin, Egor V. Kovlakov, Stanislav S. Straupe, Sergei P. Kulik, Gerd Leuchs, and Luis L. Sánchez-Soto
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
