@@ -63,11 +63,11 @@ __Training and validation of ICCNet and FidNet__
 
 __Performances for random Haar measurement bases__
 
-<img src="/training/Fig_Haar_perf_noisy.png" alt="Click to enlarge picture" width="768" height="auto">
+<img src="/training/Fig_Haar_perf_noisy.png" alt="Click to enlarge picture" width="640" height="auto">
 
 __Performance for adaptive-compressive-tomography (ACT) measurement bases__
 
-<img src="/training/Fig_ACT_perf_noisy.png" alt="Click to enlarge picture" width="768" height="auto">
+<img src="/training/Fig_ACT_perf_noisy.png" alt="Click to enlarge picture" width="640" height="auto">
 
 ## License
 GNU General Public License v3.0
