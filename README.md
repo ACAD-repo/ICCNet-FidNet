@@ -23,7 +23,7 @@ Here is the list of required softwares to run all codes:
 
 ## Instructions to generate trained ICCNet and FidNet model files and plot results
 ### Preparation
-1. Download the whole package by clicking [Download ZIP](https://github.com/ACAD-repo/ICCNet-FidNet/archive/main.zip) and extract it to any directory. (\*Do not alter the subdirectories.\*)
+1. Download the whole package by clicking [Download ZIP](https://github.com/ACAD-repo/ICCNet-FidNet/archive/main.zip) and extract it to any directory. __(Do not alter the subdirectories.)__
 2. Extract all files downloaded from https://github.com/qMLE/qMLE into the `MATLAB` subdirectory. They execute maximum-likelihood procedures very quickly using projected-gradient methods.
 3. Ensure that the MATLAB CVX package is properly installed and set to PATH. We need this to run semidefinite programs.
 
