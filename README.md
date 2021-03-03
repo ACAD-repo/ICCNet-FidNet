@@ -19,7 +19,7 @@ Here is the list of required softwares to run all codes:
 * `/training/8000_perf_noisy_ex/`: contains test and neural-network-predicted array files, obtained from 2000 training datasets for each data type as sample examples.
 
 ## Related article
-* TBA
+* Yong Siah Teo, Seongwook Shin, Hyunseok Jeong, Yosep Kim, Yoon-Ho Kim, Gleb I. Struchalin, Egor V. Kovlakov, Stanislav S. Straupe, Sergei P. Kulik, Gerd Leuchs, Luis L. Sanchez-Soto, _Benchmarking quantum tomography completeness and fidelity with machine learning_, https://arxiv.org/abs/2103.01535
 
 ## Instructions to generate trained ICCNet and FidNet model files and plot results
 ### Preparation
