@@ -1,5 +1,5 @@
 # ICCNet-FidNet
-Package containing sample codes in MATLAB and Python for generating simulation datasets, training and evaluating ICCNet and FidNet, which are the two neural networks used for benchmarking quantum tomography completeness of measurements and fidelity of unknown quantum states.
+Package containing sample codes in MATLAB and Python for generating simulation datasets, training and evaluating ICCNet and FidNet, which are the two neural networks used for benchmarking quantum tomography completeness of measurements and fidelity of unknown quantum states. Details in Y. S. Teo *et al.*, New J. Phys. **23** 103021 (2021).
 
 ## System requirements
 Here is the list of required softwares to run all codes:
